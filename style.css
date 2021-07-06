@@ -106,10 +106,34 @@ span{
 }
 .extra-recipe-body{
     display: flex;
-    margin: 50px;
+    margin: 50px;   
+}
+.social-media{
+    display: flex;
+    margin: 65px;
+    border: 2px solid rgb(217, 221, 223);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(213, 215, 216);
+}
+.youtube{
+    font-weight: bold;
+    margin-left:20%;
+    margin-right: 5%;
+}
+.insta{
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fb{
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 footer{
     text-align: center;
     background-color: rgb(241, 207, 230);
-    height: 100px;  
+    height: 135px;
+    padding: 5px; 
 }
+
