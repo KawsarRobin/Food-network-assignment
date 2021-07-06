@@ -1,13 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
 .menu-bar{
     background-color: rgb(231, 231, 231);
     display: flex;
     border-top: 2px solid rgb(85, 75, 67);
-    border-bottom: 2px solid rgb(85, 75, 67);
-    
+    border-bottom: 2px solid rgb(85, 75, 67);   
 }
 .menu-bar li{
     display: inline;
@@ -19,6 +18,9 @@ body{
     font-size: 1em;
     font-weight: 400;
 }
+#logo{
+    margin-left: 30px;
+}
 #search-bar{
     margin-top: 1em;
 }
@@ -27,8 +29,7 @@ span{
 }
 .top-banner{
     display: flex;
-    padding-left: 10px;
-    
+    padding-left: 10px;   
 }
 .half-width{
     width: 50%;
@@ -48,6 +49,7 @@ span{
     color: white;
     padding: 10px;
     border-radius: 50px;
+    font-weight: bold;
 }
 .about{
     display: flex;
@@ -68,17 +70,14 @@ span{
     text-align: center;
 
 }
-
 .recipe-body{
-    display: flex;
-   
-    
+    display: flex;   
 }
 .recipe-body img{
     width: 40%;
 }
 .recipes-details{
-    width: 35%;
+    width: 33.33%;
     box-shadow: 5px 5px 20px gray ;
     margin-left: 20px;
     margin-right: 20px;
@@ -90,4 +89,20 @@ span{
 .recipes-details img{
     width: 100%;
 }
-
+.add-button{
+    text-decoration: none;
+    color: rgb(224, 9, 9);
+    padding: 8px;
+    border: 2px solid gainsboro;
+    border-radius: 7px;
+}
+.recipes-details a{
+    margin: 15%;
+    box-shadow: 5px 5px 10px rgb(213, 215, 216);
+}
+footer{
+    text-align: center;
+    background-color: rgb(241, 207, 230);
+    height: 100px;
+    
+}
