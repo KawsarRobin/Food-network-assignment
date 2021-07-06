@@ -73,9 +73,6 @@ span{
 .recipe-body{
     display: flex;   
 }
-.recipe-body img{
-    width: 40%;
-}
 .recipes-details{
     width: 33.33%;
     box-shadow: 5px 5px 20px gray ;
@@ -88,9 +85,11 @@ span{
 }
 .recipes-details img{
     width: 100%;
+    border-radius:20px;
 }
 .add-button{
     text-decoration: none;
+    font-weight: bold;
     color: rgb(224, 9, 9);
     padding: 8px;
     border: 2px solid gainsboro;
