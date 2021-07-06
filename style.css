@@ -61,3 +61,33 @@ span{
     width: 40%;
     padding-left: 20%;
 }
+.recipes{
+    margin: 50px;
+}
+.recipes-head{
+    text-align: center;
+
+}
+
+.recipe-body{
+    display: flex;
+   
+    
+}
+.recipe-body img{
+    width: 40%;
+}
+.recipes-details{
+    width: 35%;
+    box-shadow: 5px 5px 20px gray ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid rgb(197, 190, 190);
+    border-radius:20px;
+}
+.recipes-details img{
+    width: 100%;
+}
+
